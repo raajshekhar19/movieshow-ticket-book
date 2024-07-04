@@ -10,6 +10,7 @@ body{
     justify-content: center;
     height: 100vh;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 .movie-container{
@@ -113,4 +114,22 @@ body{
 .purchase .text #total{
     color: rgb(255, 217, 0);
     font-weight: 900;
+}
+
+@media (max-width:600px){
+
+    .body{
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100%;
+    }
+     .container{
+        width: 98%;
+     }
+     .showcase{
+        width: 98%;
+     }
+     .purchase{
+        text-align: center;
+     }
 }
